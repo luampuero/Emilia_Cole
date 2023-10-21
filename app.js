@@ -20,5 +20,5 @@ app.get("/contact",(req,res)=>{
 app.use(express.static("public"));
 
 app.listen(3000,()=>{
-    console.log("Servidor jecutandose en el puerto 3000")
+    console.log("Servidor ejecutandose en el puerto 3000")
 })
