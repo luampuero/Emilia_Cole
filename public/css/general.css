@@ -1,0 +1,20 @@
+:roo t{
+    --color-gris: #B5ADA8;
+    --color-negro:#000000;
+    --color-verde:#389F8C;
+    --color-background:#FFFF;
+}
+
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    list-style:none;
+}
+
+body{
+    font-family:'Tilt Neon', sans-serif;
+    font-weight: 300;
+    background-color: var(--color-background);
+}
