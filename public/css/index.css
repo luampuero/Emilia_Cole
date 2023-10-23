@@ -1,20 +1,47 @@
-.index_body{
-    background-image: url(/img/emilia-home.jpg);
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: right;
+body {
+    position: relative;
+} 
+
+nav {
+    margin: 10px 0;
 }
 
-.index__margin{
-    margin-left: 20px;
+nav ul li {
+    margin: 10px 0;
 }
 
-.index__margin h3 {
-    margin-top: 70px ;
+nav ul li a {
+    color: #000;
 }
 
-.index__body h1{
-    background-color:rgba(225,2225,225,0.5);
-    font-size: 30px;
-
+.container {
+    overflow: hidden;
 }
+
+.container__header {
+    float: left;
+    padding-left: 30px;
+    width: 30%;
+}
+
+.photo {
+    float: right;
+    width: 66%;
+}
+
+
+.name{
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.title {
+    background-color:rgba(225,225,225,0.5);
+    position: absolute;
+    bottom: 70px;
+    width: 100%;
+    left: 0;
+    padding: 10px;
+    font-size: 75px;
+}
+
