@@ -1,13 +1,15 @@
-menu {
-    overflow: hidden;
-    background-color: rgba(100%, 100%, 100%, 0.5);
-    padding: 10px
-    float: right;
-    overflow: hidden;
-}
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+    text-decoration: none;
+} 
+
+.menu ul li{
+       display: inline;
+       font-size: 18px;
+       color:#000;
+}
+ 
+.header{
+    text-align: right;
+
 }
