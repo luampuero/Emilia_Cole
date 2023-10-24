@@ -1,5 +1,49 @@
-.menu {
-        overflow: hidden;
-        background-color: rgba(100%, 100%, 100%, 0.5);
-        padding: 10px 0;
+ 
+ 
+ *{
+        text-decoration: none;
+        list-style: none;
+ }
+ 
+ .header{
+        text-transform: uppercase;
+        font-size:16px;
+        font-weight: bold;
+        background-image: url(/img/emilia-music-top.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 130px;
+        padding-top: 20px;
+}
+
+.menu ul li{
+        display: inline;
+
+}
+
+
+.menu ul{
+        text-align: right;
+}
+
+.menu a {
+        font-size: 18px;
+        color:#000;
+}
+
+.shadow{
+        padding:10px;
+        background-color: rgba(225,225,225,0.5);    
+}
+
+.videos-txt li a{
+        color:#000;
+}
+
+.music{
+        font-size:70px;
+}
+
+.go-top{
+        color:#B5ADA8;
 }

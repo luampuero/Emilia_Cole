@@ -1,5 +1,8 @@
-body {
-    
+.body-home{
+    background-image: url(/img/emilia-about.jpg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .menu_about ul li {
